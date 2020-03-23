@@ -1,0 +1,622 @@
+body {
+    font-family: raleway;
+    background-color: #FBFBFB;
+    box-sizing: border-box;
+}
+img {
+    width: 120px;
+}
+#Dnav {
+    display: none;
+}
+#Mnav {
+    display: block;
+}
+#NavBar ul li {
+    display: inline;
+}
+#NavBar ul {
+    float: right;
+}
+.nav-link {
+    margin: 0 !important;
+}
+#topcenter {
+    display: none;
+}
+.clear {
+    clear: both;
+}
+.bg2 {
+    width: 100%;
+    background-color: #D2F1E2;
+    padding: 0;
+    padding-bottom: 20px;
+    margin-bottom: 50px; 
+     
+}
+.bg1 {
+    width: 100%;
+    background-color: #1DBF73;
+    padding: 0;
+    padding-bottom: 20px;
+}
+.bg0 {
+    width: 100%;
+/*    height: 774px;*/
+    background-image: url(../images/architecture-building-glass-162539.jpg);
+    background-size: cover;
+    background-color: #253A4A;
+    background-blend-mode: multiply;
+    background-position: center;
+    color: white;
+    padding: 4% 7%;
+}
+.bgg {
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%)
+}
+form {
+    margin-bottom: 100px; 
+}
+#started {
+    background-color: #1DBF73;
+    color: white !important;
+    border-radius: 20px;
+    padding: 10px 25px;
+    text-align: center;
+ /*   box-sizing: border-box;*/
+}
+#topcenter_m {
+        display: block; 
+        margin-bottom: 20%;
+}
+#topcenter_m form {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 3%;
+        grid-row-gap: 10%;
+}
+input {
+    width: 100%;
+    background-color: transparent;
+    background-blend-mode: color-dodge(100%);
+    border: 1px solid white;
+    color: white;
+    height: 35px;
+}
+.full {
+    column-count: 2;
+    grid-column: 1/3;
+}
+#topcenter {
+    margin-top: 7%;
+    margin-bottom: 10%;
+}
+#topcenter h2 {
+    font-size: 4rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+#topcenter .btn {
+    border: none;
+    border-radius: 40px;
+    width: 250px;
+    margin: 20px 10px;
+    background-color: green;
+    padding: auto !important;
+}
+.Grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 0;
+    margin-bottom: 15%;
+}
+.class02 {
+    text-align: center;
+}
+.text-left a.btn {
+    background-color: transparent !important;
+    border: 1px solid white !important;
+    margin-bottom: 0px !important;
+}
+.text-left p {
+    margin-left: 30px !important;
+}
+#topcenter table {
+    margin: auto;
+}
+.green {
+    color: #1DBF73;
+    font-size: 1.2em;
+}
+.class02 a.btn-lg {
+    border: none;
+    color: white;
+    border-radius: 40px;
+    background-color: #1DBF73;
+    padding: 5px 20px !important;
+}
+.close-up-code {
+    background-image: url(../images/close-up-code.jpg);
+    background-size: contain;
+    transform: scaleX(-1);
+}
+.review {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.card-body {
+    color: black;
+    padding: 4% !important; 
+}
+.child05 {
+    width: 100%;
+    background-color: white;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 5px 5px 3px #BBB;
+    margin: 2% 2% !important;
+/*    height: 200px;*/
+}
+.child05 img {
+    width: 100%;
+    min-height: 100%;
+}
+.child05 div {
+    padding: 3% 2%;
+    text-align: left;
+    font-size: 0.7em; 
+}
+.child05 div h5 {
+    font-size: 1.3em; 
+}
+.child05 div a {
+    text-decoration: none;
+    color: #1DBF73;
+    font-size: 1.3em;
+    font-weight: 300;
+    padding-bottom: 3px;
+}
+.child05 div a:hover {
+    text-decoration: underline;
+    color: black;
+    padding-bottom: 10px;
+}
+.remove {
+    margin-bottom: -5%;
+}
+.myTable, .headT {
+    width: 100%;
+    border-collapse: collapse;
+}
+.era {
+    margin-top: 0 !important;
+}
+.myTable thead {
+    background-color: #1DBF73;
+    color: white;
+    padding: 10px;
+}
+.myTable tbody {
+    background-color: white;
+    color: black;
+}
+.myTable td {
+    padding: 5px 10px;
+}
+.myTable th {
+    padding: 5px 10px;
+}
+.myTable tr i {
+    color: #1DBF73;
+}
+.myDeck {
+    margin: auto;
+}
+.small {
+    max-width: 100%;
+}
+.small > img {
+    width: 50px;
+    margin: 5%;
+}
+.decker {
+    margin: auto;
+    max-width: 800px;
+}
+.ready {
+    padding: 10%;
+    background-image: url(../images/artificial-intelligence-blur-close-up-546819.jpg);
+    background-color: #253A4A;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    margin: 10% 0;
+    text-align: center;
+}
+.right-card a.btn {
+    padding: 10px 40px;
+    border-radius: 40px;
+    border: none;
+    color: white;
+    background-color: #ff83bd;
+}
+.left-card a.btn {
+    padding: 10px 40px;
+    border-radius: 40px;
+    border: none;
+    color: white;
+    background-color: #1DBF73;
+}
+.left-card .card-header {
+    background-color: #1DBF73; 
+}
+.right-card .card-header {
+    background-color: #ff83bd; 
+}
+.strike {
+    text-decoration: line-through;
+    color: black;
+}
+.right-card .big {
+    font-size: 1.7em;
+    color: #ff83bd;
+    font-weight: 700;
+}
+.left-card .big {
+    font-size: 1.7em;
+    color: #1DBF73;
+    font-weight: 700;
+}
+.impact {
+    text-align: center;
+}
+.impact ul {
+    margin: 0;
+}
+.impact ul li {
+    list-style-type: none;
+    text-align: left;
+    margin-left: 0; 
+    margin-bottom: 5%; 
+}
+.impact ul li div {
+    background-color: white; 
+    padding: 1% 4%;
+}
+.circle {
+    float: right;
+    border-radius: 100%;
+    background-color: #1DBF73;
+    color: white;
+    width: 70px;
+    height: 70px; 
+    text-align: center;
+    padding: 22px 0;
+    margin-left: 0px;
+    transform: translate(25%, 12.5%);
+}
+:root {
+  --gutter: 20px;
+}
+.hs {
+  display: grid;
+  grid-gap: calc(var(--gutter) / 2);
+  grid-template-columns: 10px;
+  grid-template-rows: minmax(150px, 1fr);
+  grid-auto-flow: column;
+  grid-auto-columns: 240px;
+
+  overflow-x: scroll;
+  scroll-snap-type: x proximity;
+  padding-bottom: calc(.75 * var(--gutter));
+  margin-bottom: calc(-.25 * var(--gutter));
+}
+.hs:before,
+.hs:after {
+  content: '';
+  width: 10px;
+}
+ul.hs {
+  list-style: none;
+  padding: 0;
+}
+.app {
+  max-width: 780px;
+  background: transparent;
+  margin: auto;
+  place-items: center;
+  margin-bottom: 5%;
+}
+.hs > li,
+.item {
+  scroll-snap-align: center;
+  display: flex;
+  padding: 3%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  box-shadow: 5px 5px 3px #BBB;
+}
+.no-scrollbar {
+  scrollbar-width: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.bigger {
+    color: #ff83bd;
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: 0;
+}
+.shadow {
+    border-radius: 0;
+    border: none;
+    box-shadow: 5px 5px 3px #BBB;
+}
+.impact em {
+    text-align: left;
+}
+.not-mob {
+    display: none;
+    transform: scaleX(-1);
+}
+.not-mob img {
+    width: 65%;
+    transform: translate(-20%, 15%);
+}
+.card-top {
+    padding: 3px 25px;
+    border-radius: 12px;
+    border: 1px solid white;
+    margin: auto;
+    margin-bottom: 4%;
+}
+.circle-img {
+    padding: 15px;
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    margin: 6% auto;
+    text-align: center;
+    border-radius: 50%;
+    border: none;
+}
+#card-left {
+    background-color: #1DBF73;
+    color: white;
+    padding: 1% 4%;
+    max-width: 360px;
+}
+#card-right {
+    background-color: #ff83bd;
+    color: white;
+    padding: 1% 4%;
+    max-width: 360px;
+}
+.card-body {
+    padding: 0;
+}
+.foot-link {
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+.circle-img img {
+    width: 40px;
+}
+.card-subtitle {
+    margin-bottom: 10%;
+}
+.make {
+    padding: 7%;
+    background-image: url(../images/businessman-coder-desk-7059.jpg);
+    background-color: #253A4A;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    margin: 10% 0;
+    text-align: center;
+}
+.make h5 {
+    font-size: 1.5em;
+}
+.make a {
+    padding: 10px 40px;
+    color: white;
+    background-color: transparent;
+    border-radius: 30px;
+    border: white 1px solid;
+    margin: 10px;
+}
+.logos img {
+    max-height: 40px;
+    max-width: 10%;
+    mix-blend-mode: luminosity;
+    background-color: #FBFBFB;
+}
+.logos ul li {
+    display: inline;
+    list-style: none;
+    padding: 10px;
+}
+.join {
+        width: 100%;
+        height: 35px;
+        color: white;
+        background-color: #1DBF73;
+        grid-column: 1/3;
+        border: none;
+        padding: 10px auto;
+    }
+.logos {
+    margin-bottom: 4%;
+}
+div.col-md-3 i {
+    font-size: 35px;
+    color: #1DBF73;
+    font-weight: 20%;
+}
+.no_m {
+    display: none;
+}
+.col-md-4 img {
+    width: 50px;
+    margin: 10px 7px 40px 5px;
+    float: left;
+}
+.col-md-4 {
+    margin: 0;
+}
+.link {
+    text-align: center;
+    background-color: #1DBF73;
+    border-radius: 40px;
+    border: none;
+    padding: 10px 60px;
+    margin: 2%;
+}
+.link:hover {
+    text-align: center;
+    background-color: white;
+    color: #1DBF73;
+    border-radius: 40px;
+    border: 1px #1DBF73 solid;
+}
+.links:hover {
+    background-color: #1DBF73;
+    border-radius: 40px;
+    border: none;
+}
+.rev {
+    background-color: #1DBF73;
+    color: white;
+    border-radius: 40px;
+    border: none;
+    margin: 2%;
+}
+.links {
+    background-color: white;
+    color: #1DBF73;
+    border-radius: 40px;
+    border: none;
+    margin: 2%;
+}
+.col-md-3 {
+    margin-bottom: 3%;
+}
+.col-md-8 video {
+    display: block;
+}
+.top09 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+.padding {
+    padding: 2% 10%;
+}
+
+.f_content ul li {
+    list-style: none;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+    text-align: left;
+    color: white;
+}
+footer a:hover {
+    text-decoration: underline;
+    color: #b1b1b1;
+}
+#non:hover {
+    text-decoration: none;
+    color: #b1b1b1;
+}
+.f_content a img {
+    width:15px;
+    filter: invert(100%);
+    margin: 0 2px;
+}
+.follow ul li {
+    display: inline;
+}
+#footer a img {
+    width:10px;
+    filter: invert(100%);
+    transform: rotate(90deg);
+    margin: 0 2px;
+}
+footer {
+    display: none;
+    background-color: black;
+    color: white;
+    margin-top: 25px;
+/*    padding-top: 3%;*/
+}
+#eng a {
+    border: 1px solid white;
+    padding: 4px;
+    border-radius: 15px;
+    float: right;
+    margin-right: inherit;
+    margin-bottom: 4px;
+}
+#footer {
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: left;
+    padding: 3px 7%;
+}
+#footer ul li {
+    display: inline;
+    text-align: left;
+    margin: 5px;
+}
+#footer ul {
+    margin: 0;
+    padding: 0;
+}
+#chat {
+        display: none;
+}
+#footer_m {
+        display: block;
+        background-color: black;
+        color: white;
+        padding: 1%;
+        text-align: center;
+}
+#chat {
+    font-size: 30px;
+    float: right;
+    padding: 7px;
+    background-color: #1DBF73;
+    color: white;
+    /*margin-bottom: -15px;*/
+    border-radius: 100%;
+    margin-right: 7%;
+/*    margin-top: -25px;*/
+}
+#chat:hover {
+    font-size: 30px;
+    float: right;
+    padding: 7px;
+    background-color: white;
+    color: #1DBF73;
+    /*margin-bottom: -15px;*/
+    border-radius: 100%;
+    margin-right: 7%;
+/*    margin-top: -25px;*/
+}
+.fa-comment-dots {
+    display: none;
+}
