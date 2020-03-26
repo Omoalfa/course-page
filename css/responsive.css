@@ -53,7 +53,7 @@
 	}
 	.nav-link {
 		margin: 2px;
-		color: white;
+		color: #1DBF73;
 		display: inline;
 		font-size: 0.8em;
 	}
@@ -86,16 +86,6 @@
 		#Dnav {
 			display: grid;
 			grid-template-columns: auto auto;
-			padding: 0;
-			margin: 0;
-		}
-		
-		.bordered {
-		    border-right: 1px solid black;
-		    margin-bottom: 4%;
-		}
-		#lasta {
-		    border: none;
 		}
 		.padding {
 			padding: 2% 7%;
