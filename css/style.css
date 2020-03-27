@@ -151,6 +151,7 @@ ul.course-lead {
     text-align: justify;
 }
 .right04 img {
+    display: none;
     width: 60%;
     transform: scaleX(-1);
     margin-left: 15%;
