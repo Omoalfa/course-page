@@ -27,6 +27,7 @@ img {
 }
 .nav-link {
     margin: 0 !important;
+    font-size: .85em !important;
 }
 .bg2 {
     width: 100%;
@@ -36,28 +37,24 @@ img {
 }
 .bg1 {
     width: 100%;
-    background-color: #D0FFF3;
+    background-color: white;
     padding: 0;
 }
-.bg0 {
-    width: 100%;
-    background-image: url(../images/architecture-building-glass-162539.jpg);
-    background-size: cover;
-    background-color: #253A4A;
-    background-blend-mode: multiply;
-    background-position: center;
-    /*color: white;*/  
-}
-/*.bgg {
-    clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%)
-}*/
-#started {
+#started, .left01 a.btn {
     background-color: #1DBF73;
     color: white !important;
     border-radius: 20px;
     padding: 10px 25px;
     text-align: center;
- /*   box-sizing: border-box;*/
+    transition-duration: .5s;
+}
+#started:hover, .left01 a.btn:hover {
+    background-color: white;
+    color: #1DBF73 !important;
+    border-radius: 20px;
+    padding: 10px 25px;
+    text-align: center;
+    border: 1px solid #1DBF73;
 }
 .left01 {
     padding: 5% 7%;
@@ -84,13 +81,14 @@ img {
 .right01 a:hover div {
     color: #bbb;
     text-decoration: none !important;
+    transition-duration: .5s;
 }
 .right01 a:hover {
     color: #bbb;
     text-decoration: none !important;
 }
 .left01 h3 {
-    color: #ff83b8;
+    color: black;
     font-size: 3em;
 }
 .right01 {
@@ -161,6 +159,38 @@ ul.course-lead {
     padding-top: 10%;
     padding-left: 7%;
 }
+.card > a, a.lightbox > .card {
+    color: black !important;
+    text-decoration: none !important;
+}
+.lightbox {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+}
+.lightbox .card {
+    /** Pad the lightbox image */
+    max-width: 60%;
+    max-height: 80%;
+    margin-top: 10%;
+    margin-left: 20%; 
+    padding-top: 3%;
+}
+.lightbox:target {
+    /** Remove default browser outline */
+    outline: none;
+
+    /** Unhide lightbox **/
+    display: block;
+}
+
+
 .f_content ul li, .right05 ul li {
     list-style: none;
 }
