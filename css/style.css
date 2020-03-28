@@ -24,10 +24,15 @@ img {
 }
 #NavBar ul {
     float: right;
+    margin: 0;
+    padding: 0;
 }
 .nav-link {
     margin: 0 !important;
     font-size: .85em !important;
+}
+.nav-link:hover {
+    color: black !important;
 }
 .bg2 {
     width: 100%;
@@ -122,7 +127,7 @@ img {
     color: white;
     font-size: 3em;
 }
-ul.course-lead {
+ul.course-leads {
     padding: 0;
 }
 .course-leads li {
