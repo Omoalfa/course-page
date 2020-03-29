@@ -196,9 +196,18 @@ ul.course-leads {
     display: block;
 }
 
-
+.h5 {
+    font-size: 1.25rem !important;
+}
 .f_content ul li, .right05 ul li {
     list-style: none;
+}
+.f_content > a.nav-link {
+    padding: 2% auto;
+}
+#accordion {
+    background-color: #343a40;
+    box-shadow: 5px 5px 3px #292f35;
 }
 footer ul {
     padding: 0;
@@ -220,8 +229,12 @@ footer a:hover {
     font-size: 20px;
     margin: 2px;
 }
+a.h5 > i {
+    float: right;
+    margin-right: 3%;
+}
 footer {
-    display: none;
+    /*display: none;*/
     padding-left: 5% !important;
     padding-right: 5% !important;
     padding-top: 5%;
@@ -233,15 +246,12 @@ footer {
     border: 1px solid white;
     padding: 4px;
     border-radius: 15px;
-    float: right;
     margin-right: inherit;
     margin-bottom: 4px;
+    width: 90%;
 }
 #footer {
-    display: grid;
-    grid-template-columns: auto auto;
     text-align: left;
-    padding: 3px 7%;
 }
 #footer ul li {
     display: inline;
@@ -251,13 +261,6 @@ footer {
 #footer ul {
     margin: 0;
     padding: 0;
-}
-#footer_m {
-        display: block;
-        background-color: black;
-        color: white;
-        padding: 1%;
-        text-align: center;
 }
 #chat {
     display: none;
