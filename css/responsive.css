@@ -58,7 +58,6 @@
 		grid-template-columns: auto auto;
 		padding-bottom: 1rem; 
 	}
-
 	.padding {
 		padding: 2% 7%;
 	}
@@ -76,7 +75,9 @@
 	.nav-link {
 		margin: 5px 0;
 	}
-	
+	.active {
+		display: inline-block !important;
+	}
 	.mycards {
 	    display: grid;
 	    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -90,9 +91,7 @@
 	}
 }
 @media screen and (min-width: 970px) {
-	.active {
-		display: inline-block !important;
-	}
+	
 	.not-mob {
 		display: inline-block;
 	}

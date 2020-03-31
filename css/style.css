@@ -205,9 +205,15 @@ ul.course-leads {
 .f_content > a.nav-link {
     padding: 2% auto;
 }
+.f_content > a.nav-link:hover {
+    padding: 2% auto;
+    color: white !important;
+}
 #accordion {
     background-color: #343a40;
     box-shadow: 5px 5px 3px #292f35;
+    margin: auto;
+    padding-left: 3%;
 }
 footer ul {
     padding: 0;
