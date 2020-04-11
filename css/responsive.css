@@ -1,19 +1,4 @@
 @media screen and (min-width : 480px) {
-	.bg0 {
-	    width: 100%;
-	/*    height: 774px;*/
-	    /*background-image: url(../images/architecture-blue_1.jpg);*/
-	    background-size: cover;
-	    background-color: #253A4A;
-	    background-blend-mode: multiply;
-	    background-position: center;
-	    color: white;
-	    padding: 2% 7%;
-	}
-	.child05 img {
-	    width: 100%;
-	    min-height: auto;
-	}
 	.active {
 		display: none !important;
 	}
@@ -54,36 +39,22 @@
 		display: none;
 	}
 	#Dnav {
-		display: grid;
-		grid-template-columns: auto auto;
+		display: block;
 		padding-bottom: 1rem; 
 	}
 	.padding {
 		padding: 2% 7%;
-	}
-	#NavBar {
-		margin: 10px 0;
 	}
 	.nav-link {
 		margin: 0;
 	}
 }
 @media screen and (min-width : 820px) {
-	#NavBar {
-		margin: 10px 0;
-	}
 	.nav-link {
 		margin: 5px 0;
 	}
 	.active {
 		display: inline-block !important;
-	}
-	.mycards {
-	    display: grid;
-	    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-	    grid-column-gap: 2%;
-	    text-align: center;
-	    padding: 5%;
 	}
 	.child05 img {
 	    width: 100%;
@@ -99,5 +70,14 @@
 @media screen and (min-width: 768px) {
 	.accordion {
 		box-shadow: none !important;
+	}
+	footer {
+		text-align: left;
+	}
+	#footer {
+		text-align: left;
+	}
+	.f_content {
+		padding: 0;
 	}
 }

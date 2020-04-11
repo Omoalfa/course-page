@@ -98,7 +98,7 @@ img {
 }
 .right01 {
     background-color: #1DBF73;
-    background-image: url(../images/programmer.jpg);
+    background-image: url(../images/programmer.png);
     background-size: cover;
     background-blend-mode: multiply;
     
@@ -191,15 +191,18 @@ ul.course-leads {
 .lightbox:target {
     /** Remove default browser outline */
     outline: none;
-
     /** Unhide lightbox **/
     display: block;
 }
 
-.h5 {
-    font-size: 1.25rem !important;
+a.h5, div.h5 {
+    font-size: 16px;
+    font-weight: bold;
 }
-.f_content ul li, .right05 ul li {
+.f_content {
+    font-size: 14px;
+}
+.f_content ul li {
     list-style: none;
 }
 .f_content > a.nav-link {
@@ -210,8 +213,8 @@ ul.course-leads {
     color: white !important;
 }
 #accordion {
-    background-color: #343a40;
-    box-shadow: 5px 5px 3px #292f35;
+    background-color: #262727;
+    box-shadow: 5px 5px 3px #222;
     margin: auto;
     padding-left: 3%;
 }
@@ -239,12 +242,13 @@ a.h5 > i {
     float: right;
     margin-right: 3%;
 }
+footer > .container-fluid {
+    padding: 0;
+}
 footer {
-    /*display: none;*/
-    padding-left: 5% !important;
-    padding-right: 5% !important;
+    background-color: #262727;
+    text-align: center;
     padding-top: 5%;
-    background-color: black;
     color: white;
     margin-top: 25px;
 }
@@ -257,7 +261,10 @@ footer {
     width: 90%;
 }
 #footer {
-    text-align: left;
+    text-align: center;
+}
+#footer > .row, footer .container-fluid > .row {
+    margin: 0 !important;
 }
 #footer ul li {
     display: inline;
