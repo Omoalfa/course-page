@@ -37,13 +37,13 @@ img {
 .bg2 {
     width: 100%;
     background-color: #D2F1E2;
-    padding: 0;
-    padding-bottom: 2%;   
+    padding: 0 !important;
+    padding-bottom: 2% !important;   
 }
 .bg1 {
     width: 100%;
     background-color: white;
-    padding: 0;
+    padding: 0 !important;
 }
 #started, .left01 a.btn {
     background-color: #1DBF73;
@@ -61,6 +61,35 @@ img {
     text-align: center;
     border: 1px solid #1DBF73;
 }
+div#header {
+    background-image: url(../images/header.png);
+    background-position: center;
+}
+/*privacy, about, contact and faqs pages*/
+h3.display-4 {
+    font-weight: 700;
+    word-spacing: 3px;
+    color: white;
+}
+input, textarea, button {
+    width: 90%;
+    padding: 10px;
+    margin: 3%;
+}
+textarea {
+    height: 200px;
+}
+button {
+    background-color: #1DBF73;
+    color: white;
+    font-weight: bold;
+}
+button:hover {
+    background-color: white;
+    color: #1DBF73;
+}
+
+/*course page*/
 .left01 {
     padding: 5% 7%;
     padding-right: 10%; 
@@ -101,9 +130,7 @@ img {
     background-image: url(../images/programmer.png);
     background-size: cover;
     background-blend-mode: multiply;
-    
-
-}
+    }
 .left02 {
     padding-right: 7%;
     text-align: justify;
@@ -194,6 +221,8 @@ ul.course-leads {
     /** Unhide lightbox **/
     display: block;
 }
+
+/*footer begins*/
 
 a.h5, div.h5 {
     font-size: 16px;
